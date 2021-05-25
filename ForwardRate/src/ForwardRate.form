@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ForwardRate">
+  <grid id="27dc6" binding="mainPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="398" height="335"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="91ef" binding="titlePanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fc83d" class="javax.swing.JLabel" binding="titleLabel" custom-create="true">
+            <constraints/>
+            <properties>
+              <font name="Courier New" size="20" style="3"/>
+              <foreground color="-16579837"/>
+              <horizontalAlignment value="10"/>
+              <text value="Forward Rate"/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7ef61" binding="inputAndOutputPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <component id="3741c" class="javax.swing.JLabel" binding="currencyPairLabel" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="104" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16"/>
+              <horizontalAlignment value="2"/>
+              <labelFor value="a03d2"/>
+              <text value="Currency Pair"/>
+            </properties>
+          </component>
+          <component id="e6ed4" class="javax.swing.JLabel" binding="spotQuotationLabel" custom-create="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="104" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16"/>
+              <labelFor value="6f572"/>
+              <text value="Spot Quotation"/>
+            </properties>
+          </component>
+          <component id="b2b98" class="javax.swing.JLabel" binding="forwardPointsLabel" custom-create="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="104" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16"/>
+              <labelFor value="ed067"/>
+              <text value="Forward Points"/>
+            </properties>
+          </component>
+          <component id="e9742" class="javax.swing.JLabel" binding="timeLabel" custom-create="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="104" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16"/>
+              <horizontalAlignment value="10"/>
+              <labelFor value="876b2"/>
+              <text value="Time"/>
+            </properties>
+          </component>
+          <component id="c37cf" class="javax.swing.JLabel" binding="forwardRateLabel" custom-create="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="104" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16"/>
+              <labelFor value="f1c07"/>
+              <text value="Forward rate"/>
+            </properties>
+          </component>
+          <component id="a03d2" class="javax.swing.JTextField" binding="currencyPairTextField" custom-create="true" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="148" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6f572" class="javax.swing.JTextField" binding="spotQuotationTextField" custom-create="true" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="148" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ed067" class="javax.swing.JTextField" binding="forwardPointsTextField" custom-create="true" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="148" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="876b2" class="javax.swing.JTextField" binding="timeTextField" custom-create="true" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="148" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f1c07" class="javax.swing.JTextField" binding="forwardRateTextField" custom-create="true" default-binding="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="148" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="10689" class="javax.swing.JButton" binding="loadButton" custom-create="true" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Load"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7078" binding="buttonPanel" custom-create="true" layout-manager="FlowLayout" hgap="20" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a1b8f" class="javax.swing.JButton" binding="checkButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <text value="Check"/>
+            </properties>
+          </component>
+          <component id="822d3" class="javax.swing.JButton" binding="clearButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <text value="Clear"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="1a891">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="defba" binding="textAreaPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="22e06" binding="scrollPane1" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="78683" class="javax.swing.JTextArea" binding="message" custom-create="true">
+                <constraints/>
+                <properties>
+                  <columns value="50"/>
+                  <lineWrap value="true"/>
+                  <rows value="3"/>
+                  <text value=""/>
+                  <wrapStyleWord value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
